@@ -1,23 +1,29 @@
 {
-  "name": "jsub-api",
+  "name": "yanapa-mant",
   "version": "1.0.0",
   "description": "",
-  "main": "src/start.js",
+  "main": "./start.js",
   "scripts": {
-    "start": "node src/start.js",
-    "seed-data": "node src/seed-data.js"
+    "start": "node ./start.js",
+    "seed-data": "node ./seed-data.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/franciclo/jsub-api.git"
+    "url": "git+https://github.com/franciclo/yanapa-mant.git"
   },
   "author": "",
   "license": "GPLv3",
   "dependencies": {
-    "dotenv": "^2.0.0",
-    "elasticsearch": "^12.1.3",
-    "express": "^4.14.0",
-    "express-jwt": "^5.1.0",
-    "mongoose": "^4.8.0"
+    "mongodb": "^2.2.24",
+    "pg": "^6.1.4"
+  },
+  "devDependencies": {
+    "eslint": "~3.16.1",
+    "eslint-config-standard": "~6.2.1",
+    "eslint-config-standard-react": "~4.2.0",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-promise": "~3.4.0",
+    "eslint-plugin-react": "~6.9.0",
+    "eslint-plugin-standard": "~2.0.1"
   }
 }
